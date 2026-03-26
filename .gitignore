@@ -1,0 +1,67 @@
+# Binaries
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+*.test
+*.out
+*.cover
+coverage.*
+*.prof
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency directories (if vendoring is used)
+vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Telegram bot specific (optional)
+# config files with tokens
+config.yaml
+config.json
+secrets.json
+
+# Test cache
+.cache/
+
+# GolangCI-Lint cache
+.golangci.yml
+.golangci-cache/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: ignore local build/run scripts
+run.sh
