@@ -177,7 +177,7 @@ func getUpdates(token string, offset int) ([]Update, error) {
 }
 
 func askGemini(apiKey, userText string) (string, error) {
-	endpoint := "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + url.QueryEscape(apiKey)
+	endpoint := "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=" + url.QueryEscape(apiKey)
 
 	prompt := "Answer clearly and briefly in plain text. Maximum 1024 characters.\n\nUser: " + userText
 
