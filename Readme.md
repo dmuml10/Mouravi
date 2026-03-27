@@ -18,6 +18,8 @@ When a message is received:
 - `/start` → replies with a welcome message
 - Any other text → echoes back the message
 
+Once it receives the message it replies using Gemini API
+
 ## Requirements
 
 - Go 1.18+
